@@ -1,0 +1,35 @@
+li {
+  list-style: none;
+}
+
+.row {
+  clear: left;
+}
+
+.element-container {
+  width: 75px;
+  height: 75px;
+  margin: 1px;
+  float: left;
+}
+
+.element {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #f88;
+}
+
+.element-container:hover .element {
+  width: 60%;
+  height: 60%;
+  margin: 20%;
+  background-color: #777;
+}
+
+.element-container.clicked .element {
+  width: 70%;
+  height: 70%;
+  margin: 15%;
+  background-color: #999;
+}
