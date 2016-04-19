@@ -30,7 +30,7 @@
       return element
     }
 
-    for (var rowIdx = 0; rowIdx < 32; rowIdx++){
+    for (var rowIdx = 0; rowIdx < 8; rowIdx++){
       var row = makeRow();
 
       for (var colIdx = 0; colIdx < 32; colIdx++){
