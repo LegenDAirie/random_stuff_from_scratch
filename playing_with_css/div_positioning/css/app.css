@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 a {
@@ -18,10 +19,13 @@ body {
   margin: 10px;
 }
 
-.container {
+.border {
   border-style: dotted;
   border-color: #D35B44;
   border-width: 1px;
+}
+
+.container {
   margin: 10px;
 }
 
@@ -34,10 +38,32 @@ body {
 }
 
 .paragraph-container {
-  width: 80%;
+  width: 75%;
   background-color: #CBCCCB;
   padding: 15px 7px 15px 7px;
   display: inline-block;
+  float: left;
+}
+
+li {
+  float: left;
+  width: 45%;
+}
+
+.box {
+  display: inline-block;
+  float: left;
+}
+
+.thing {
+  width: 40px;
+  height: 40px;
+  background-color: #777776;
+}
+
+#box-container {
+  float: left;
+  width: 20%;
 }
 
 #header {
@@ -70,4 +96,8 @@ body {
   font-size: 24px;
   padding: 10px;
   text-align: center;
+}
+
+.clear {
+  clear: both;
 }
