@@ -1,17 +1,22 @@
 body {
-  background-color: #999999;
-  font-family: sans-serif;
+  background-color: black;
 }
 
-h1 {
-  background-color: DarkCyan;
+.title {
+  background-color: red;
 }
 
-h2 {
-  background-color: #ee3e80;
+.container {
+  border-style: dotted;
+  border-width: 1px;
 }
 
-p {
-  background-color: #dddddd;
-  font-size: 16px;
+.inner-div {
+  width: 400px;
+  height: 100px;
+}
+
+.outer-div {
+  width: 300px;
+  height: 300px;
 }
