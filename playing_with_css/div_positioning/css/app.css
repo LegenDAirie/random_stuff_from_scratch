@@ -40,8 +40,8 @@ a {
 
 .small-box {
   background-color: #777;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 .large-box-container {
@@ -94,6 +94,10 @@ a {
   margin: 1%;
   width: 98%;
   height: 100%;
+}
+
+#middle {
+  overflow: auto;
 }
 /*--------------------------------------------------------------------*/
 
