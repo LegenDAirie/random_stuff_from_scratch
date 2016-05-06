@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  border: 3px solid #e25303;
+  border-radius: 10px;
+
+}
+
+.box {
+  width: 60%;
+  height: 60px;
+  background-color: #AA8;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+li {
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+p {
+  background-color: #f88;
+  width: 90%;
+  height: 75%;
+  min-width: 450px;
+  max-width: 650px;
+
+  min-height: 10px;
+  max-height: 50px;
+  margin: auto;
+
+  overflow: hidden;
+}
