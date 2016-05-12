@@ -29,23 +29,26 @@ a {
 }
 
 .paragraph-container {
-  display: inline-block;
+  float: left;
+  /*display: inline-block;*/
   background-color: #ccc;
 }
 
 .small-box-container {
   float: right;
-  display: inline-block;
+  /*float: left;*/
+  /*display: inline-block;*/
 }
 
 .small-box {
   background-color: #777;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 
 .large-box-container {
-  display: inline-block;
+  float: left;
+  /*display: inline-block;*/
 }
 
 .large-box {
@@ -97,6 +100,10 @@ a {
 }
 
 #middle {
+  overflow: auto;
+}
+
+#footer {
   overflow: auto;
 }
 /*--------------------------------------------------------------------*/
