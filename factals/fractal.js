@@ -12,6 +12,8 @@
         // this.circleFractal(x, y, radius)
         this.circleFractal(x + radius, y, radius/2)
         this.circleFractal(x - radius, y, radius/2)
+        // this.circleFractal(x, y + radius, radius/2)
+        // this.circleFractal(x, y - radius, radius/2)
       }
     },
   }
